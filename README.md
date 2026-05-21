@@ -207,14 +207,22 @@ Spring Boot Services
 | IoT Business Metrics | Device count, energy readings, alert frequency |
 
 <table>
-  <tr>
-    <td width="50%" align="center">
-      <img alt="Grafana Service Health Overview" src="https://github.com/user-attachments/assets/fbcfc237-cfe5-4313-b558-8d0a82fa640c" />
-    </td>
-    <td width="50%" align="center">
-      <img alt="Grafana JVM Metrics" src="https://github.com/user-attachments/assets/3affd3c4-1aa6-499c-9e9a-19c0c9cd806d" />
-    </td>
-  </tr>
+  <thead>
+    <tr>
+      <th width="50%" align="center">Service Health Overview</th>
+      <th width="50%" align="center">JVM Metrics</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">
+        <img alt="Grafana Service Health Overview" src="https://github.com/user-attachments/assets/fbcfc237-cfe5-4313-b558-8d0a82fa640c" />
+      </td>
+      <td align="center">
+        <img alt="Grafana JVM Metrics" src="https://github.com/user-attachments/assets/3affd3c4-1aa6-499c-9e9a-19c0c9cd806d" />
+      </td>
+    </tr>
+  </tbody>
 </table>
 
 </details>
