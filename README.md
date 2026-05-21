@@ -65,22 +65,13 @@ Built for real production workloads with AWS EKS, decoupled microservices, and e
 <table>
   <thead>
     <tr>
-      <th width="50%" align="center">User Flow</th>
-      <th width="50%" align="center">Grafana Dashboards</th>
+      <th align="center">User Flow</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td rowspan="2" align="center">
-        <video src="https://github.com/user-attachments/assets/2bcbd484-bce7-4f25-9c6c-77020a187b9e" width="100%"></video>
-      </td>
       <td align="center">
-        <img width="1916" height="838" alt="Grafana JVM Metrics" src="https://github.com/user-attachments/assets/3affd3c4-1aa6-499c-9e9a-19c0c9cd806d" />
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <img width="1916" height="838" alt="Grafana Service Health Overview" src="https://github.com/user-attachments/assets/fbcfc237-cfe5-4313-b558-8d0a82fa640c" />
+        hello
       </td>
     </tr>
   </tbody>
@@ -162,6 +153,10 @@ Application runs on AWS EKS with managed RDS and MSK Serverless.
 
 Next.js dashboard (App Router, TypeScript, Tailwind, shadcn/ui) served through nginx reverse proxy.
 
+### Demo
+
+<video src="https://github.com/user-attachments/assets/2bcbd484-bce7-4f25-9c6c-77020a187b9e" width="640"></video>
+
 ### Auth
 
 - **Google OAuth 2.0 + credentials login** through NextAuth.js - backend validates tokens and issues HMAC-SHA signed JWTs.
@@ -210,6 +205,17 @@ Spring Boot Services
 | JVM Metrics | Heap, GC pause, thread count per service |
 | Kafka Event Pipeline | Producer/consumer lag, throughput per topic |
 | IoT Business Metrics | Device count, energy readings, alert frequency |
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img alt="Grafana Service Health Overview" src="https://github.com/user-attachments/assets/fbcfc237-cfe5-4313-b558-8d0a82fa640c" />
+    </td>
+    <td width="50%" align="center">
+      <img alt="Grafana JVM Metrics" src="https://github.com/user-attachments/assets/3affd3c4-1aa6-499c-9e9a-19c0c9cd806d" />
+    </td>
+  </tr>
+</table>
 
 </details>
 
