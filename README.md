@@ -7,8 +7,6 @@ Stores, processes, and delivers real-time alerts and AI insights.
 
 Built for real production workloads with AWS EKS, decoupled microservices, and end-to-end observability.
 
-> Note: live deployment is currently down to save on costs
-
 
 [![Github Release](https://img.shields.io/github/v/release/chieaid24/energy-tracker)](https://github.com/chieaid24/energy-tracker/releases)
 
@@ -367,14 +365,14 @@ cd terraform/envs/dev && terraform destroy
 > This is very expensive :( so production environment is currently spun down. All infrastructure reproducible with `terraform apply` + `helm install` (see [Deploying to EKS](#run-on-aws-eks-production)).
 </details>
 
----
+
 
 ## Real Usage
 
 I connected the system to my own home using Shelly smartplugs. Check out the `/shelly` folder for how you can do it too!
 
 
----
+
 
 ## Project Layout
 
