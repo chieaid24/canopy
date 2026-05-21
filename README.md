@@ -60,22 +60,6 @@ Built for real production workloads with AWS EKS, decoupled microservices, and e
   </tr>
 </table>
 
-## Demo
-
-<table>
-  <thead>
-    <tr>
-      <th align="center">User Flow</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center">
-        hello
-      </td>
-    </tr>
-  </tbody>
-</table>
 
 
 
@@ -219,7 +203,7 @@ Spring Boot Services
         <img alt="Grafana Service Health Overview" src="https://github.com/user-attachments/assets/fbcfc237-cfe5-4313-b558-8d0a82fa640c" />
       </td>
       <td align="center">
-        <img alt="Grafana JVM Metrics" src="https://github.com/user-attachments/assets/3affd3c4-1aa6-499c-9e9a-19c0c9cd806d" />
+        <img alt="Grafana JVM Metrics" src="https://github.com/user-attachments/assets/ac2ac06a-3973-404e-bfec-c3469bdb24cd" />
       </td>
     </tr>
   </tbody>
