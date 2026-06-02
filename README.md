@@ -1,4 +1,4 @@
-<h1 align="left"> Lumis </h1>
+<h1 align="left"> Canopy </h1>
 
 
 Ingests energy IoT data from your home devices. 
