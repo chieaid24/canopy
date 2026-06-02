@@ -1,7 +1,7 @@
-<h1 align="left"> Home Energy Tracker</h1>
+<h1 align="left"> Lumis </h1>
 
 
-Ingests IoT data from your home devices. 
+Ingests energy IoT data from your home devices. 
 
 Stores, processes, and delivers real-time alerts and AI insights.
 
